@@ -166,9 +166,9 @@ function Pricing() {
               );
             })}
             <Button
-              colorScheme="gray"
+              colorScheme="purple"
               w="500px"
-              textColor="gray.400"
+              textColor="white"
               fontWeight="bold"
               fontSize="2xl"
               mt={7}
