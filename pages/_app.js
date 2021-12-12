@@ -8,7 +8,7 @@ function MyApp({ Component, pageProps }) {
           useSystemColorMode: true,
         }}
       />
-      <Component {...pageProps} />"
+      <Component {...pageProps} />
     </ChakraProvider>
   );
 }

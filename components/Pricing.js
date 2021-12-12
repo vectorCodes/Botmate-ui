@@ -13,54 +13,42 @@ import { TiTick } from "react-icons/ti";
 const benefits = [
   {
     title: "10,000 messages per month",
-    icon: <TiTick />,
   },
   {
     title: "5 second timeout",
-    icon: <TiTick />,
   },
   {
     title: "1000 HTTP requests per day",
-    icon: <TiTick />,
   },
   {
     title: "500+ group members",
-    icon: <TiTick />,
   },
   {
     title: "3 months of analytics",
-    icon: <TiTick />,
   },
   {
     title: "Unlimited bots",
-    icon: <TiTick />,
   },
 ];
 
 const benefits2 = [
   {
     title: "Unlimited messages per month",
-    icon: <TiTick />,
   },
   {
     title: "20 seconds timeout",
-    icon: <TiTick />,
   },
   {
     title: "10,000 HTTP requests per day",
-    icon: <TiTick />,
   },
   {
     title: "5000+ group members",
-    icon: <TiTick />,
   },
   {
     title: "6 months of analytics",
-    icon: <TiTick />,
   },
   {
     title: "Unlimited bots",
-    icon: <TiTick />,
   },
 ];
 
@@ -114,11 +102,11 @@ function Pricing() {
               </Text>
             </Box>
 
-            {benefits.map((benefit) => {
+            {benefits.map((benefit, id) => {
               return (
-                <HStack spacing={2} mt={6}>
+                <HStack spacing={2} mt={6} key={id}>
                   <Box textColor="purple.500" fontSize="4xl">
-                    {benefit.icon}
+                    <TiTick />
                   </Box>
                   <Text textColor="gray.400" py={1} fontSize="1xl">
                     {benefit.title}
@@ -165,11 +153,11 @@ function Pricing() {
                 aliqua do et minim.
               </Text>
             </Box>
-            {benefits2.map((benefit) => {
+            {benefits2.map((benefit, id) => {
               return (
-                <HStack spacing={2} mt={6}>
+                <HStack spacing={2} mt={6} key={id}>
                   <Box textColor="purple.500" fontSize="4xl">
-                    {benefit.icon}
+                    <TiTick />
                   </Box>
                   <Text textColor="gray.400" py={1} fontSize="1xl">
                     {benefit.title}

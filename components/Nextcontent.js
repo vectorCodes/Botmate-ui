@@ -76,7 +76,7 @@ function Nextcontent() {
           </HStack>
         </Center>
         <Center>
-          <HStack mt={20} spacing={4} mt={4}>
+          <HStack mt={20} spacing={4}>
             <Box h="200px" w="380px" rounded="20" bg="blackAlpha.800">
               <Box p={12}>
                 <Box textColor="purple.400" fontSize="3xl">
@@ -87,7 +87,8 @@ function Nextcontent() {
                 </Box>
                 <Box textColor="gray.400" fontWeight="semibold">
                   <Text>
-                    Track your bot's performance, and see how it's doing.
+                    Track your bot&apos;s performance, and see how it&apos;s
+                    doing.
                   </Text>
                 </Box>
               </Box>
