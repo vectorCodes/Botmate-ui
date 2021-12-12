@@ -14,7 +14,7 @@ function Footer() {
 
             <Text textColor="gray.400">Botmate</Text>
           </VStack>
-          <HStack spacing={6}>
+          <HStack spacing={6} textColor="gray.400">
             <Box>
               <Text>Help</Text>
             </Box>
